@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div class="container">
         <a href="#" class="navbar-brand">Travel the world</a>
         <!-- Hamburger menu -->
@@ -45,10 +45,11 @@
     </nav>
 
     <!-- Showcase -->
-    <section class="bg-dark text-light p-5 text-center">
+                                            <!-- from sm to up, align to the start -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
       <div class="container">
         <!-- flexbox class breakpoint: small screens -->
-        <div class="d-sm-flex">
+        <div class="d-sm-flex align-items-center justify-content-between">
           <div>
             <h1>
               Travel and <span class="text-warning">Discover</span> the world!
@@ -64,7 +65,7 @@
             </button>
           </div>
           <!-- Class to bound img into container -->
-          <img clas="img-fluid" src="./travel.svg" alt="" width="50%" />
+          <img class="img-fluid w-50 d-none d-sm-block" src="./travel.svg" alt=""  />
         </div>
       </div>
     </section>
